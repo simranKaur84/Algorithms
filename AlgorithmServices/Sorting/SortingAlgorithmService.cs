@@ -4,8 +4,11 @@ using System.Text;
 
 namespace AlgorithmServices.Sorting
 {
-    public class SortingAlgorithmService
+    public class SortingAlgorithmService : ISortingAlgorithmService
     {
-
+        public long[] SelectionSort(long[] numbers) 
+        {
+            
+        }
     }
 }

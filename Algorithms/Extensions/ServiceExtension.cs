@@ -11,7 +11,7 @@ namespace Algorithms.Extensions
     {
         public static IServiceCollection AddServiceExtension(this IServiceCollection services) 
         {
-            services.AddScoped<SortingAlgorithmService>();
+            services.AddScoped<ISortingAlgorithmService, SortingAlgorithmService>();
             return services;
         }
     }
